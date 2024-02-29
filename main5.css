@@ -1,0 +1,47 @@
+body{
+    background-image : url(book\ background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+      div,
+      img{
+          position: absolute;
+          
+      }
+      #book1 {
+          top:50px;
+          left: 50px;
+      }
+      #book2 {
+          top:150px;
+          left: 150px;
+      }
+      #book3 {
+          top:250px;
+          left: 250px;
+      }
+      #book4 {
+          top:350px;
+          left: 350px;
+      }
+      h1{
+  color: rgb(246, 4, 133);
+  font-size: 44px;
+}
+h2{
+  color: rgb(247, 109, 183);
+  font-size: 36px;
+}
+a{
+  color:rgb(249, 141, 0);
+}
+p{
+  font-size: 22px;
+}
+
+footer{
+    margin-top: auto;
+    margin-left: 0%;
+ }

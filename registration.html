@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <meta charset = "UTF-8">
+  <meta name="author" content="Shambhavi" >
+  <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
+    <title>Registration</title>
+    <link rel="icon" href="ani_books-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<header>
+    <h1>The Bookish Hour</h1>
+    <h2>Registration</h2>
+</header>
+<body>
+  <section>
+    <ul>
+      <li>
+        <a href="home.html">Home Page</a>
+      </li>
+        <li>
+            <a href="biodata.html">Biodata</a>
+        </li>
+
+        <li>
+            <a href="login2.html">Login Page</a>
+        </li>
+
+        <li>
+            <a href="catalogue2.html">Catalogue Page</a>
+        </li>
+        <li>
+          <a href="layers.html">Layered Catalogue</a>
+        </li>
+       
+        <li>
+          <a href="cart3.html">Cart page</a>
+        </li>
+    </ul>
+   </section>
+   <hr>
+
+  <style>
+    body{
+      background-image : url(book\ background.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+    <br>
+<section>
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Registration</legend>
+        <p>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" placeholder="name" autocomplete="on" required autofocus>
+      </p>
+       <p>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" placeholder="surname" autocomplete="on" required 
+        >
+       </p>
+       
+       <p>
+        
+        <label for="phoneNo.">Phone number:</label>
+        <input type="tel" name="phoneNo." id="phoneNo." placeholder="xxxxxxxxxx" autocomplete="on" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+       </p>
+       <p>
+        <label for="dob">Date of birth:</label>
+        <input type="text" name="dob" id="dob" placeholder="DD/MM/YYYY" autocomplete="on" required>
+       </p>
+
+       <p>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+         <option value="others"> others</option>
+        </select>
+     </p>
+
+       <p>
+        
+        <label for="gmail">Gmail:</label>
+        <input type="text" name="gmail" id="gmail" autocomplete="on" required 
+        >
+       </p>
+       <p>
+       <label for="profession">You are:</label>
+       <select name="profession" id="profession">
+        <option value="student"> a student</option>
+        <option value="teacher"> a teacher</option>
+        <option value="others"> others</option>
+       </select>
+    </p>
+
+       <p>
+        
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address" autocomplete="on" required 
+        >
+       </p>
+
+
+       </fieldset>
+       <br>
+      <button type="submit">Submit</button>
+      <button type="submit" formaction="sdsasddssd;;;s" formmethod="post"></button>
+      <button type="reset">Reset</button>
+    </form>
+</section>
+<hr>
+
+</body>

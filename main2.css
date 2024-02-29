@@ -1,0 +1,26 @@
+header {
+    font-size: 22px;
+}
+ 
+ body {
+    background-color: #333;
+    color: aliceblue;
+    font-size: 16px;;
+ }
+
+ h1{
+    color:rgb(246, 4, 133);
+ }
+ h2{
+    color: rgb(247, 109, 183);
+ }
+ a{
+    color:rgb(249, 141, 0);
+ }
+footer{
+    font-size: 22px;
+}
+ legend{
+   font-size: 22px;
+   color: rgb(255, 0, 128);
+ }

@@ -1,0 +1,36 @@
+
+  
+  #addNewProduct{
+      background: transparent;
+      border: 2px solid white;
+      padding: 10px 15px;
+      color: white;
+      border-radius: 50px;
+      margin-top: 50px;
+  }
+  .btn{
+      padding: 10px 20px;
+      background: transparent;
+      border: solid white
+  }
+
+  .my-cart-btn{
+    background: rgb(247, 109, 183);
+    padding: 10px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .row{
+    color: white;
+  }
+  h1{
+    color: rgb(246, 4, 133);
+    font-size: 44px;
+  }
+  h2{
+    color: rgb(247, 109, 183);
+    font-size: 36px;
+  }
+  a{
+    color:rgb(249, 141, 0);
+ }

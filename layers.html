@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layered Catalogue</title>
+    <link rel="icon" href="ani_books-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="main5.css" type="text/css">
+    
+    <script>
+        function imgToTop(p1) {
+            document.getElementById('book1').style.zIndex = 0;
+            document.getElementById('book2').style.zIndex = 0;
+            document.getElementById('book3').style.zIndex = 0;
+            document.getElementById('book4').style.zIndex = 0;
+            document.getElementById(p1).style.zIndex = 1;
+        }
+    </script>
+</head>
+<header>
+    <h1>The Bookish Hour</h1>
+    <h2>Layered Catalogue!🔥🔥🔥</h2>
+</header>
+    
+
+<body>
+    
+    <div>
+    <img id="book1" onclick="imgToTop('book1')" src="missing myth.webp" width="300" height="550" >
+    <img id="book2" onclick="imgToTop('book2')" src="mystry in paris.jpg" width="300" height="550">
+    <img id="book3" onclick="imgToTop('book3')" src="the treasure sea.jpg" width="300" height="550">
+    <img id="book4" onclick="imgToTop('book4')" src="the-journey-to-atlantis.jpg" width="300" height="550"> 
+</div>
+<br>
+    
+</body>
+<footer>
+    <a href="home.html">Back to Home</a>
+</footer>
+
+</html>

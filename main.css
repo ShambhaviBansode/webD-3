@@ -1,0 +1,36 @@
+html {
+    font-size: 22px;
+}
+ 
+ body {
+    background-color: #333;
+    color: aliceblue;
+
+ }
+
+ header{
+    color:rgb(246, 4, 133);
+ }
+ a{
+    color:rgb(249, 141, 0);
+ }
+ h2{
+    color: rgb(247, 109, 183);
+ }
+ h3{
+   color: #fc05d2;
+ }
+ h4{
+   color: #bd00a1;
+ }
+ legend{
+   font-size: 22px;
+ }
+ button:hover{
+   box-shadow: 0 0 5px 5px #e1701a inset;
+}
+button{
+   cursor: pointer;
+}
+
+ 
