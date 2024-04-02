@@ -1,0 +1,17 @@
+html {
+    font-size: 22px;
+}
+ 
+ body {
+    background-color: #333;
+    color: aliceblue;
+ }
+ h1{
+    color: pink;
+ }
+ h2{
+    color: palevioletred;
+ }
+ p{
+    color: aqua;
+ }
